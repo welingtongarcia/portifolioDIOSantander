@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInput" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@color/black</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.Design.AppBarLayout">
+        <item name="android:background">@color/white</item>
+        <item name="title">@null</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+    </style>
+</resources>
